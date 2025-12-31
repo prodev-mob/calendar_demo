@@ -49,7 +49,9 @@ class _CalendarEventState extends State<CalendarEvent> {
 
   void getCurrentLocation() async {
     try {
-      _timezone = await FlutterTimezone.getLocalTimezone();
+      final timezoneInfo = await FlutterTimezone.getLocalTimezone();
+      _timezone = timezoneInfo.identifier;
+      debugPrint("--- _timezone is<calendar_event.dart>: $_timezone ---");
     } catch (e) {
       debugPrint('Could not get the local timezone');
     }

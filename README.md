@@ -92,7 +92,7 @@ To add the `device_calendar` package to your project, include it in the `pubspec
 
 ```yaml
 dependencies:
-  device_calendar: ^4.0.0
+  device_calendar: ^4.3.3
 ```
 After updating the `pubspec.yaml` file, run the following command to install the package:
 
