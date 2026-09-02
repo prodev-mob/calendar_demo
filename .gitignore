@@ -128,36 +128,11 @@ gen-external-apklibs
 # NDK
 obj/
 
-# IntelliJ IDEA
+# IntelliJ IDEA / Android Studio
 *.iml
 *.iws
 /out/
-
-# User-specific configurations
-.idea/caches/
-.idea/libraries/
-.idea/shelf/
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/.name
-.idea/compiler.xml
-.idea/copyright/profiles_settings.xml
-.idea/encodings.xml
-.idea/misc.xml
-.idea/modules.xml
-.idea/scopes/scope_settings.xml
-.idea/dictionaries
-.idea/vcs.xml
-.idea/jsLibraryMappings.xml
-.idea/datasources.xml
-.idea/dataSources.ids
-.idea/sqlDataSources.xml
-.idea/dynamic.xml
-.idea/uiDesigner.xml
-.idea/assetWizardSettings.xml
-.idea/gradle.xml
-.idea/jarRepositories.xml
-.idea/navEditor.xml
+.idea/
 
 # Legacy Eclipse project files
 .classpath
@@ -201,5 +176,10 @@ fabric.properties
 
 # End of https://www.toptal.com/developers/gitignore/api/flutter,androidstudio
 
-# FVM Version Cache
-.fvm/
+# FVM
+.fvm/flutter_sdk
+.fvm/versions/
+.fvm/release
+.fvm/version
+.fvm/release_cache
+.fvm/versions_cache
